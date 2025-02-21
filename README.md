@@ -1,1 +1,1 @@
-# RPGTest
+#Readme initialized
