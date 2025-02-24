@@ -1,0 +1,37 @@
+Title screen
+    New Character
+    Delete Character
+    Copy Character
+    Print Character - PRINTER FRIENDLY ONLY
+
+
+Player options screen:
+    screen size - selection of sizes, not free window resizing
+    Font size?
+    Screen colour?
+    Text colour?
+    light/dark mode?
+
+Multiple menus to save screen real estate?
+Short/Long rest button - include request to change spells/abilties before long rest
+
+Populate:
+    weapons
+    armor
+    races - sub race info
+    classes - spell info
+    skills?
+    
+Character sheet
+    Level
+    Stats
+        method to increase stats based on race
+        method to increase stats based on classes
+    Hp
+    movement speed
+        modified by gear
+    saving throws
+        Include changes based on gear
+    spells and abilities
+        Include spell selection and number of uses
+    equipment entry

@@ -1,0 +1,1 @@
+#Weapon information goes here
