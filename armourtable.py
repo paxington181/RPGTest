@@ -1,1 +1,14 @@
-#Armor information goes here
+# Name = (Display name, (light/medium/heavy), base AC, Str requirement, Stealth Dis True/False)
+armour_padded = ("Padded Armor", "light", 11, 1, True)
+armour_leather = ("Leather Armor", "light", 11, 1, False)
+armour_studded = ("Studded Armor", "light", 12, 1, False)
+armour_hide = ("Hide Armor", "medium", 12, 1, False)
+armour_chain = ("Chain Shirt", "medium", 13, 1, False)
+armour_scale =  ("Scale Mail", "medium", 14, 1, True)
+armour_breastplate = ("Breastplate", "medium", 14, 1, False)
+armour_halfplate = ("Half Plate", "medium", 15, 1, True)
+armour_ring = ("Ring Mail", "heavy", 14, 1, True)
+armour_chain = ("Chain Mail", "heavy", 16, 13, True)
+armour_splint = ("Splint", "heavy", 17, 15, True)
+armour_plate = ("Plate", "heavy", 18, 15, True)
+
