@@ -1,4 +1,4 @@
-#!/home/paxington181/workspace/github.com/paxington181/RPGTest/venv/bin/python3
+#!/home/paxington181/workspace/github.com/paxington181/RPGTest/venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys

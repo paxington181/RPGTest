@@ -1,0 +1,1 @@
+#Races and sub races modifiers data to use in race Class constructor

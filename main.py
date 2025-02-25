@@ -1,5 +1,5 @@
 import pygame
-from constants import (
+from progconstants import (
     SCREEN_WIDTH,
     SCREEN_HEIGHT
 )
@@ -21,7 +21,7 @@ def main():
             if event.type == pygame.QUIT:
                 return
         screen.fill("dark blue")
-
+        print("Placeholder just to see")
 
 
 
