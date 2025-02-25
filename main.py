@@ -8,6 +8,7 @@ from progconstants import (
 
 def main():
     pygame.init
+    pygame.display.set_caption("Character Sheet Tool")
     clock = pygame.time.Clock()
     
     dt = 0
@@ -15,13 +16,13 @@ def main():
     screen = pygame.display.set_mode(
         (SCREEN_WIDTH, SCREEN_HEIGHT)
         )
-
+    font = pygame.font.Font()
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
         screen.fill("dark blue")
-        print("Placeholder just to see")
+        
 
 
 
