@@ -12,3 +12,12 @@ ARMOUR_CHAINMAIL = ("Chain Mail", "heavy", 16, 13, True)
 ARMOUR_SPLINT = ("Splint", "heavy", 17, 15, True)
 ARMOUR_PLATE = ("Plate", "heavy", 18, 15, True)
 
+class Armour:
+    def __init__(self, name, weight, base_ac, str_req, stealth_disadvantage):
+        self.name = name
+        self.weight = weight
+        self.base_ac =  base_ac
+        self.str_req = str_req
+        self.steal_dis = stealth_disadvantage
+
+        
