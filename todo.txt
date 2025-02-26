@@ -1,3 +1,7 @@
+Ripped out pygames, going with tkinter because I hate/love myself
+
+
+
 Title screen
     New Character
     Delete Character
