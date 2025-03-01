@@ -19,7 +19,7 @@ WEAPON_GREATSWORD = ("Greatsword", "Martial Melee", "2d6", "slashing", "heavy", 
 WEAPON_HALBERD = ("Halberd", "Martial Melee", "1d10", "slashing", "heavy", "reach", "two-handed", None)
 
 #Name = ("Display Name", "simple/martial", "damage die", "damage type", "property 1", "property 2", "property 3", "hcbiab", "range")
-#Ranged weapons ...why do you have to be like this, heavy crossbow?!  Who hurt you?
+#Ranged weapons ...why do you have to be like this, heavy crossbow?!  Who hurt you? 9082    3r
 
 
 class MeleeWeapon:
