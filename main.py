@@ -38,7 +38,13 @@ tk_int_save = tk.Label(text = "Int Save placeholder")
 tk_wis_save = tk.Label(text = "Wis Save placeholder")
 tk_cha_save = tk.Label(text = "Cha Save placeholder")
 
-#skills
+#physical traits
+tk_char_height = tk.Label(text = "height placeholder")
+tk_char_weight = tk.Label(text = "weight placeholder")
+tk_char_age = tk.Label(text = "Age placeholder")
+tk_char_size = tk.Label(text = "size class placeholder")
+
+#skills and languages
 tk_acrobatics = tk.Label(text = "acrobatics placeholder")
 tk_animal_handling = tk.Label(text = "animal handling placeholder")
 tk_arcana = tk.Label(text = "arcana placeholder")
@@ -57,8 +63,18 @@ tk_religion = tk.Label(text = "religion placeholder")
 tk_slight_of_hand = tk.Label(text = "slight of hand placeholder")
 tk_stealth = tk.Label(text = "stealth placeholder")
 tk_survival = tk.Label(text = "survival placeholder")
+tk_languages = tk.Label(text = "language placeholder")
 
-
+class Character():
+    def __init__(self, name, strength, dexterity, constitution, intellegence, wisdom, charisma):
+        self.name = "char"
+        self.strength = strength
+        self.dexterity = dexterity
+        self.constitution = constitution
+        self.intellegence = intellegence
+        self.wisdom = wisdom
+        self.charisma = charisma
+        
 window = tk.Tk()
 character_name.pack()
 lvl_class.pack()
