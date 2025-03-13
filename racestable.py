@@ -1,49 +1,53 @@
 #Races and sub races modifiers data to use in race Class constructor
+#Ripping it out and redoing it, KISS was not followed, time to do that instead of trying for STYLE
+ 
+def dwarf(): #Placeholder to organize Dwarf Subraces
+    pass
 
-class Dwarf():
-    def __init__(self):
-        self.size = "Medium"
-        self.move_speed = 25
-        char.constitution += 2
-        
-class HillDwarf(Dwarf):
-    def __init__(self):
+def hill_dwarf():
+    pass
 
-class MountainDwarf(Dwarf):
-    def __init__(self):
+def mountain_dwarf():
+    pass
 
-class Elf():
+def elf(): #Placeholder to organize Elf Subraces
+    pass
 
-class HighElf():
+def high_elf():
+    pass
 
-class Drow():
+def dark_elf(): 
+    pass
 
+def halfling(): #I blame the Hobbit for Halflings getting subraces
+    pass
 
-class Halfling():
+def lightfoot_halfling():
+    pass
 
-class Lightfoot():
+def stout_halfling():
+    pass
 
-class Stout():
+def human(): #The milquetoastiest race of them all, and yet I'll still make a fighter.  I'm saving my creativity for other things.
+    pass
 
+def dragonborn(): #This is going to be the most work to code, just because of breath weapons.
+    pass
 
-class Human():
+def gnome(): #Still not done with subraces.
+    pass
 
+def forest_gnome():
+    pass
 
-class Dragonborn():
+def rock_gnome():
+    pass
 
+def half_elf():
+    pass
 
-class Gnome():
+def half_orc():
+    pass
 
-class ForestGnome():
-
-class RockGnome():
-
-
-class HalfElf():
-
-
-class HalfOrc():
-
-
-class Tiefling():
-
+def tiefling(): #Honk if you're horny, or at least borrow Hellboy's angle grinder.
+    pass
