@@ -1,6 +1,7 @@
 #import so stuff works
 import tkinter as tk
 import tkinter.ttk as ttk
+import random
 
 #import from other files
 from armourtable import *
@@ -65,16 +66,8 @@ tk_stealth = tk.Label(text = "stealth placeholder")
 tk_survival = tk.Label(text = "survival placeholder")
 tk_languages = tk.Label(text = "language placeholder")
 
-class Character():
-    def __init__(self, name, strength, dexterity, constitution, intellegence, wisdom, charisma):
-        self.name = "char"
-        self.strength = strength
-        self.dexterity = dexterity
-        self.constitution = constitution
-        self.intellegence = intellegence
-        self.wisdom = wisdom
-        self.charisma = charisma
-        
+
+
 window = tk.Tk()
 character_name.pack()
 lvl_class.pack()
