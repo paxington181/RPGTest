@@ -7,15 +7,23 @@ import random
 from armourtable import *
 from weapontable import *
 
-#Basic character and player info
-tk_character_name = tk.Label(text = "Character name placeholder")
-tk_player_name = tk.Label(text = "Player placeholder")
-tk_lvl_class = tk.Label(text = "Level and class placeholder")
-tk_char_race = tk.Label(text = "race placeholder")
-tk_alignment = tk.Label(text = "alignment placeholder")
+#Character generation code here
+
+character_name = "build a text box for this"
+character_lvl = "0"
+character_class = "Uninitialized"
+character_race = "Uninitialized"
+character_alignment = "Uninitialized"
+
+#Basic character and player info display
+tk_character_name_input = tk.Label(text = character_name)
+tk_character_name = tk.Label(text = "Character name")
+tk_player_name = tk.Label(text = "Player name")
+tk_race_class_lvl = tk.Label(text = f"{character_race} {character_class} {character_lvl}")
+tk_alignment = tk.Label(text = "Alignment")
 tk_experience = tk.Label(text = "experience placeholder")
 
-#base stats
+#base stats display
 tk_strength = tk.Label(text = "Str + bonus")
 tk_dexterity = tk.Label(text = "dex + bonus")
 tk_constitution = tk.Label(text = "con + bonus")
@@ -24,7 +32,7 @@ tk_wisdom = tk.Label(text = "wis + bonus")
 tk_charisma = tk.Label(text = "cha + bonus")
 tk_passive_awareness = tk.Label(text = "passive awareness placeholder")
 
-#Saves, HP, AC, move speed
+#Saves, HP, AC, move speed display
 tk_proficiency_bonus = tk.Label(text = "Prof placeholder")
 tk_total_hitdice = tk.Label(text = "HitDice placeholder")
 tk_max_hp = tk.Label(text = "Max HP placeholder")
@@ -39,13 +47,13 @@ tk_int_save = tk.Label(text = "Int Save placeholder")
 tk_wis_save = tk.Label(text = "Wis Save placeholder")
 tk_cha_save = tk.Label(text = "Cha Save placeholder")
 
-#physical traits
+#physical traits display
 tk_char_height = tk.Label(text = "height placeholder")
 tk_char_weight = tk.Label(text = "weight placeholder")
 tk_char_age = tk.Label(text = "Age placeholder")
 tk_char_size = tk.Label(text = "size class placeholder")
 
-#skills and languages
+#skills and languages display
 tk_acrobatics = tk.Label(text = "acrobatics placeholder")
 tk_animal_handling = tk.Label(text = "animal handling placeholder")
 tk_arcana = tk.Label(text = "arcana placeholder")
@@ -68,8 +76,12 @@ tk_languages = tk.Label(text = "language placeholder")
 
 
 
+
+
+#tk window code
 window = tk.Tk()
-character_name.pack()
-lvl_class.pack()
-alignment.pack()
+tk_character_name_input.pack()
+tk_character_name.pack()
+tk_race_class_lvl.pack()
+tk_alignment.pack()
 window.mainloop()
