@@ -1,2 +1,1 @@
-SCREEN_WIDTH = 1200
-SCREEN_HEIGHT = 700
+#No Constants at this time, will probably remove this
