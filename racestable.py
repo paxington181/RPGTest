@@ -1,6 +1,7 @@
 #Races and sub races modifiers data to use in race Class constructor
 #Ripping it out and redoing it, KISS was not followed, time to do that instead of trying for STYLE
- 
+#Why isn't this copying right?
+
 def dwarf(): #Placeholder to organize Dwarf Subraces
     pass
 
