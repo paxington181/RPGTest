@@ -14,14 +14,17 @@ character_lvl = "0"
 character_class = "Uninitialized"
 character_race = "Uninitialized"
 character_alignment = "Uninitialized"
+character_experience = "0"
+character_to_next_level = "0"
 
 #Basic character and player info display
 tk_character_name_input = tk.Label(text = character_name)
 tk_character_name = tk.Label(text = "Character name")
 tk_player_name = tk.Label(text = "Player name")
 tk_race_class_lvl = tk.Label(text = f"{character_race} {character_class} {character_lvl}")
-tk_alignment = tk.Label(text = "Alignment")
-tk_experience = tk.Label(text = "experience placeholder")
+tk_alignment = tk.Label(text = character_alignment)
+tk_experience = tk.Label(text = f"{character_experience} XP")
+tk_to_next_level = tk.Label(text = character_to_next_level)
 
 #base stats display
 tk_strength = tk.Label(text = "Str + bonus")
