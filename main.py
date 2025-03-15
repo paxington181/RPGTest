@@ -82,9 +82,15 @@ tk_languages = tk.Label(text = "language placeholder")
 
 
 #tk window code
-window = tk.Tk()
+loading_window = tk.Tk()
+loading_window.title("Main Window")
+
+character_window = tk.Toplevel(loading_window)
+character_window.title(f"{character_name}'s Sheet")
 tk_character_name_input.pack()
 tk_character_name.pack()
 tk_race_class_lvl.pack()
 tk_alignment.pack()
-window.mainloop()
+
+
+loading_window.mainloop()
