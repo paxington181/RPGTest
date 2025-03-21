@@ -8,7 +8,13 @@ def dwarf(): #Placeholder to organize Dwarf Subraces
 def hill_dwarf():
     pass
 
+def rem_hill_dwarf():
+    pass
+
 def mountain_dwarf():
+    pass
+
+def rem_mountain_dwarf():
     pass
 
 def elf(): #Placeholder to organize Elf Subraces
@@ -17,7 +23,13 @@ def elf(): #Placeholder to organize Elf Subraces
 def high_elf():
     pass
 
-def dark_elf(): 
+def rem_high_elf():
+    pass
+
+def dark_elf():
+    pass
+
+def rem_dark_elf():
     pass
 
 def halfling(): #I blame the Hobbit for Halflings getting subraces
@@ -26,13 +38,25 @@ def halfling(): #I blame the Hobbit for Halflings getting subraces
 def lightfoot_halfling():
     pass
 
+def rem_lightfoot_halfling():
+    pass
+
 def stout_halfling():
+    pass
+
+def rem_stout_halfling():
     pass
 
 def human(): #The milquetoastiest race of them all, and yet I'll still make a fighter.  I'm saving my creativity for other things.
     pass
 
+def rem_human():
+    pass
+
 def dragonborn(): #This is going to be the most work to code, just because of breath weapons.
+    pass
+
+def rem_dragonborn():
     pass
 
 def gnome(): #Still not done with subraces.
@@ -41,14 +65,29 @@ def gnome(): #Still not done with subraces.
 def forest_gnome():
     pass
 
+def rem_forest_gnome():
+    pass
+
 def rock_gnome():
+    pass
+
+def rem_rock_gnome():
     pass
 
 def half_elf():
     pass
 
+def rem_half_elf():
+    pass
+
 def half_orc():
     pass
 
+def rem_half_orc():
+    pass
+
 def tiefling(): #Honk if you're horny, or at least borrow Hellboy's angle grinder.
+    pass
+
+def rem_tiefling():
     pass
