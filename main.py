@@ -17,6 +17,11 @@ character_alignment = "Uninitialized"
 character_experience = "0"
 character_to_next_level = "0"
 
+character_stats = {str : 0, dex : 0, con : 0, int : 0, wis : 0, cha : 0}
+character_str = character_stats[str]
+character_dex = character_stats[dex]
+
+
 #Basic character and player info display
 tk_character_name_input = tk.Label(text = character_name)
 tk_character_name = tk.Label(text = "Character name")
